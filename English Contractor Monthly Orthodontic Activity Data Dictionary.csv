@@ -1,0 +1,12 @@
+Column,Title,Type,Description
+YEAR_MONTH,Treatment Month,integer,This is the month in which the treatment was completed - an FP17 (course of treatment) is assigned to a treatment month based on the date of completion or date of last visit (the date of last visit may be the treatment acceptance date).
+COMMISSIONER_CODE,Commissioner Code,string,"This is the 3 character code associated with the Commissioning Organisation, currently ICBs in England"
+COMMISSIONER_NAME,Commissioner Name,string,"This is the name associated with the Commissioning Organisation, currently ICBs in England"
+CONTRACT_NUMBER,Contract Number,integer,This is a unique 10 character number which identifies a contract
+PROVIDER_NAME,Provider Name,string,The latest name of the provider
+UOA_FIN_VAL,Units of Orthodontic Activity Financial Value,number,"The financial value associated with the UOA performance target for the financial year, as entered by the commissioner."
+UOA_PERF_TAR,Units of Orthodontic Activity Performance Target,number,"The contracted units of orthodonticl activity (UOA) to be achieved for the year, as entered on CoMPASS by the commissioner."
+UOA_DELIVERED,Units of Orthodontic Activity Delivered,number,The Units of Orthodontic Activity for the month attributed to the FP17Os for the treatment provided.
+LATE_SUBMITTED_FP17,Late Submitted FP17,integer,This is a count of the number of late submitted FP17Os. Late is defined as FP17Os where the treatment was completed and the time between receipt at NHS Dental Services and date of completion of treatment was greater than two months (62 days).
+ORTHO_TRT_STARTED,Orthodontic Treatment Starts,number,"This is a count of the number of forms submitted where the assess and accept box has been ticked and the date treatment began has been entered on the FP17O. In effect, this is the number of treatment starts."
+ORTHO_TRT_COMPLETED,Orthodontic Treatment Completions,number,This is a count of the number of forms where the treatment completed box in part 6 of the FP17O has been ticked. A date of completion and IOTN score at the completion of treatment must be present.
